@@ -1,0 +1,109 @@
+body {
+  text-align: center;
+  margin: 0;
+  background-color: #21094e;
+  color: White;
+  font-family: Pacifico;
+}
+
+h1 {
+  font-family: Pacifico;
+  font-size: 5rem;
+  font-weight: 100;
+  margin: 5px;
+  color: White;
+}
+
+h2 {
+  font-family: Roboto Slab;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 0;
+  margin: 5px 15px;
+}
+
+hr {
+  border: #FFFFFF;
+  border: 7.5px dotted rgba(255, 255, 255, 0.5);
+  border-bottom: 0;
+}
+
+hr {
+  width: 5%;
+}
+
+td {
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+button img {
+  width: 75%;
+  padding: 25px 0;
+}
+
+button {
+  background: Transparent;
+  border: 0;
+}
+
+.home-animation-non-click {
+  display: none;
+}
+
+.home-animation-click {
+  background-color: #21094e;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
+
+.home-animation-click img {
+  height: 80%;
+  border-radius: 100%;
+}
+
+.home-logo {
+  width: 40%;
+}
+
+.home-pokeyball {
+  width: 20%;
+}
+
+.section-three div {
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.section-three div {
+  width: 20%;
+  margin: 5px;
+}
+
+.section-one {
+  height: 25vh;
+}
+
+.section-three {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right {
+  color: Green;
+}
+
+.wrong {
+  color: Red;
+}
